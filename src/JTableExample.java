@@ -2,6 +2,7 @@ import javax.swing.JFrame;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.table.TableModel;
 
 public class JTableExample extends JFrame {
 
@@ -21,6 +22,8 @@ public class JTableExample extends JFrame {
 		setLayout(null);
 		setVisible(true);
 		setSize(500, 600);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+
 	}
 
 	public static void main(String[] args) {
