@@ -49,7 +49,9 @@ public class CheckBoxExample2 extends JFrame implements ActionListener {
 		add(checkboxBurger);
 		add(checkboxTea);
 		add(buttonOrder);
+
 		buttonOrder.addActionListener(this);
+
 		setSize(350, 300);
 		setLayout(null);
 		setVisible(true);
